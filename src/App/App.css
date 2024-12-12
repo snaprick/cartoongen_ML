@@ -1,0 +1,16 @@
+.main-content {
+    max-width: 992px;
+    margin: 0 auto 20px auto;
+}
+
+@media not screen and (min-width: 1200px) {
+    .main-content {
+        max-width: 992px !important;
+    }
+}
+
+@media not screen and (min-width: 768px) {
+    .main-content {
+        width: 90%;
+    }
+}

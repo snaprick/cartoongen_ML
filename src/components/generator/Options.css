@@ -1,0 +1,72 @@
+.option {
+    margin-bottom: 15px;
+}
+
+.mode-selector {
+    margin: 23px 0 7px 0;
+}
+
+.mode-selector span {
+    position: relative;
+    top: -1px;
+    margin-left: 3px;
+}
+
+.option h4 {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.option hr {
+    margin: 0;
+}
+
+.option .icon-expand {
+    margin-top: 7px;
+}
+
+.option .option-expert-multiple {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.option > span {
+    display: block;
+    margin-top: 15px;
+}
+
+.option > h5 > .glyphicon {
+    display: inline-block;
+    margin: 0 3px;
+    position: relative;
+    top: 2px;
+}
+
+.option-checkbox {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.continuous-selector-slider {
+    margin-left: 10px;
+}
+
+.option-count-slider {
+    margin: -10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .option .btn-group button {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+}
+
+@media not screen and (min-width: 768px) {
+    .option .btn-group button {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
